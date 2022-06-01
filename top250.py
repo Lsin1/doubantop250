@@ -138,7 +138,7 @@ def insert_excel(excel_info,excel_savepath):
     workSheet.column_dimensions['H'].width = 15
     workSheet.column_dimensions['I'].width = 25
     workSheet.column_dimensions['J'].width = 16
-    workSheet.column_dimensions['K'].width = 40
+    workSheet.column_dimensions['K'].width = 43
 
     #行高
     for hei in range(2,len(excel_info)+2):
